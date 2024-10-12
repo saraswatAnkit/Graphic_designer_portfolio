@@ -72,6 +72,7 @@ section{
     background-image: url(images/modern-luxury-background-gradient-dark_343694-1707.avif);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .home-content h3{
     font-size: 1.2rem;
@@ -148,10 +149,11 @@ section{
     background-image: url(images/wallpaper2you_280876.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .about-container{
     display: flex;
-    gap: 25rem;
+    gap: 15rem;
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
@@ -182,6 +184,46 @@ section{
 }
 .about-content .btn:hover{
     box-shadow: none;
+}
+
+.certificate{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.certificate-container{
+    display: flex;
+    gap: 15rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.certificate-img img{
+    width: 40vw;
+    left: 2rem;
+    /* border-radius: 50%; */
+    box-shadow: 0 0 1rem #45cad8;
+}
+.certificate-content{
+    width: 520px;
+    color: #fff;
+    top: 0rem;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 2;
+    border: 3px solid #f1f1f1;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+.certificate-content h3 {
+    line-height: 1.2;
+    font-size: 3rem;
+}
+.certificate-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+    color: #fcfcfc;
+    font-weight: 600;
 }
 
 .services{
@@ -376,6 +418,17 @@ section{
         margin-top: 4rem;
     }
     .about-content{
+        text-align: justify;
+        width: 90vw;
+    }
+    .certificate-container{
+        flex-direction: column;
+    }
+    .certificate-img img{
+        width: 65vw;
+        margin-top: 4rem;
+    }
+    .certificate-content{
         text-align: justify;
         width: 90vw;
     }

@@ -40,8 +40,8 @@ ScrollReveal({
 })
 
 ScrollReveal().reveal('.home-content, .heading',{origin: 'top'})
-ScrollReveal().reveal('.home-img,.service-box, .portfolio-box,.contact form, .blog-box',{origin: 'bottom'})
-ScrollReveal().reveal('.home-content h1,.about-img',{origin: 'left'})
+ScrollReveal().reveal('.home-img,.service-box, .portfolio-box,.contact form, .blog-box, .certificate-img',{origin: 'bottom'})
+ScrollReveal().reveal('.home-content h1,.about-img, .certificate-content',{origin: 'left'})
 ScrollReveal().reveal('.home-content p, .about-content',{origin: 'right'})
 
 // typed js
