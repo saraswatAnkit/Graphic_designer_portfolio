@@ -69,7 +69,7 @@ section{
     justify-content: center;
     align-items: center;
     gap: 7.5rem;
-    background-color: rgba(86,150,147,255);
+    background-color: rgba(149,175,209,255);
 }
 .home-content h3{
     font-size: 1.2rem;
@@ -80,7 +80,7 @@ section{
     margin-bottom: 2rem;
 }
 .home-content h3 span{
-    color: #45cad8;
+    color: #172527;
 }
 .home-content{
     color: #fff;
@@ -108,7 +108,7 @@ section{
 }
 .icons a{
     display: inline-block;
-    color: #45cad8;
+    color: #ffffff;
     width: 2.8rem;
     height: 2.8rem;
     background: transparent;
